@@ -98,7 +98,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
-				ORGANIZATIONNAME = PPS;
+				ORGANIZATIONNAME = wangrui;
 				TargetAttributes = {
 					1A5755721A6761BB0038CF45 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -276,6 +276,7 @@
 				1A5755921A6761BC0038CF45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
