@@ -11,18 +11,7 @@
 		1A57557C1A6761BB0038CF45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A57557B1A6761BB0038CF45 /* main.m */; };
 		1A57557E1A6761BB0038CF45 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A57557D1A6761BB0038CF45 /* Images.xcassets */; };
 		1A5755811A6761BB0038CF45 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A57557F1A6761BB0038CF45 /* MainMenu.xib */; };
-		1A57558D1A6761BC0038CF45 /* ProfileFinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A57558C1A6761BC0038CF45 /* ProfileFinderTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		1A5755871A6761BB0038CF45 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1A57556B1A6761BB0038CF45 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1A5755721A6761BB0038CF45;
-			remoteInfo = ProfileFinder;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1A5755731A6761BB0038CF45 /* ProfileFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProfileFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,20 +21,10 @@
 		1A57557B1A6761BB0038CF45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1A57557D1A6761BB0038CF45 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1A5755801A6761BB0038CF45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		1A5755861A6761BB0038CF45 /* ProfileFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProfileFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A57558B1A6761BC0038CF45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A57558C1A6761BC0038CF45 /* ProfileFinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileFinderTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1A5755701A6761BB0038CF45 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1A5755831A6761BB0038CF45 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -59,7 +38,6 @@
 			isa = PBXGroup;
 			children = (
 				1A5755751A6761BB0038CF45 /* ProfileFinder */,
-				1A5755891A6761BB0038CF45 /* ProfileFinderTests */,
 				1A5755741A6761BB0038CF45 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,7 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				1A5755731A6761BB0038CF45 /* ProfileFinder.app */,
-				1A5755861A6761BB0038CF45 /* ProfileFinderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,23 +71,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1A5755891A6761BB0038CF45 /* ProfileFinderTests */ = {
-			isa = PBXGroup;
-			children = (
-				1A57558C1A6761BC0038CF45 /* ProfileFinderTests.m */,
-				1A57558A1A6761BC0038CF45 /* Supporting Files */,
-			);
-			path = ProfileFinderTests;
-			sourceTree = "<group>";
-		};
-		1A57558A1A6761BC0038CF45 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				1A57558B1A6761BC0038CF45 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,24 +91,6 @@
 			productReference = 1A5755731A6761BB0038CF45 /* ProfileFinder.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1A5755851A6761BB0038CF45 /* ProfileFinderTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1A5755931A6761BC0038CF45 /* Build configuration list for PBXNativeTarget "ProfileFinderTests" */;
-			buildPhases = (
-				1A5755821A6761BB0038CF45 /* Sources */,
-				1A5755831A6761BB0038CF45 /* Frameworks */,
-				1A5755841A6761BB0038CF45 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1A5755881A6761BB0038CF45 /* PBXTargetDependency */,
-			);
-			name = ProfileFinderTests;
-			productName = ProfileFinderTests;
-			productReference = 1A5755861A6761BB0038CF45 /* ProfileFinderTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -160,10 +102,6 @@
 				TargetAttributes = {
 					1A5755721A6761BB0038CF45 = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					1A5755851A6761BB0038CF45 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 1A5755721A6761BB0038CF45;
 					};
 				};
 			};
@@ -181,7 +119,6 @@
 			projectRoot = "";
 			targets = (
 				1A5755721A6761BB0038CF45 /* ProfileFinder */,
-				1A5755851A6761BB0038CF45 /* ProfileFinderTests */,
 			);
 		};
 /* End PBXProject section */
@@ -193,13 +130,6 @@
 			files = (
 				1A57557E1A6761BB0038CF45 /* Images.xcassets in Resources */,
 				1A5755811A6761BB0038CF45 /* MainMenu.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1A5755841A6761BB0038CF45 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,23 +145,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1A5755821A6761BB0038CF45 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1A57558D1A6761BC0038CF45 /* ProfileFinderTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		1A5755881A6761BB0038CF45 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1A5755721A6761BB0038CF45 /* ProfileFinder */;
-			targetProxy = 1A5755871A6761BB0038CF45 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1A57557F1A6761BB0038CF45 /* MainMenu.xib */ = {
@@ -343,42 +257,6 @@
 			};
 			name = Release;
 		};
-		1A5755941A6761BC0038CF45 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ProfileFinderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProfileFinder.app/Contents/MacOS/ProfileFinder";
-			};
-			name = Debug;
-		};
-		1A5755951A6761BC0038CF45 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ProfileFinderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProfileFinder.app/Contents/MacOS/ProfileFinder";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -396,14 +274,6 @@
 			buildConfigurations = (
 				1A5755911A6761BC0038CF45 /* Debug */,
 				1A5755921A6761BC0038CF45 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		1A5755931A6761BC0038CF45 /* Build configuration list for PBXNativeTarget "ProfileFinderTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1A5755941A6761BC0038CF45 /* Debug */,
-				1A5755951A6761BC0038CF45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
